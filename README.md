@@ -122,4 +122,4 @@ Caso tenha alguma dúvida:
 
 https://discord.gg/2AmQV7X7ZY
 
-<!-- pipeline-trigger: 2026-09-26T21:03:00Z -->
+<!-- pipeline-trigger: 2026-09-26T21:05:00Z - verification draft -->
