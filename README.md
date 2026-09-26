@@ -1,20 +1,20 @@
-## ✦ antes de começar
+## 📌 antes de começar
 
 1. Crie uma conta no GitHub.
 2. Instale o Git ➔ https://git-scm.com/install/
 
-## ✦ dicas de segurança
+## 📌 dicas de segurança
 
 * O nome de usuário não deve ter dados pessoais.
 * Ative a autenticação em dois fatores (Settings, Password and authentication).
-* Em Settings → Emails, marque:
+* Em Settings ➔ Emails, marque:
 
   * "Keep my email addresses private"
   * "Block command line pushes that expose my email"
 
 ➔ https://github.com/settings/emails
 
-## ✦ configurando o Git
+## 📌 configurando o Git
 
 > Garanta que o Git esteja instalado.
 
@@ -25,7 +25,7 @@ git config --global user.email "ID+seu-usuario@users.noreply.github.com"
 
 Você pode conferir o noreply mail na mesma página em que você o configurou.
 
-## ✦ passo a passo
+## 📌 passo a passo
 
 ### 1. Faça o fork do repositório
 
@@ -71,12 +71,6 @@ git branch "feat(desafio)/nome-da-branch"
 Após criar a branch, entre nela:
 
 ```bash
-git checkout "feat(desafio)/nome-da-branch"
-```
-
-Ou, utilizando uma versão mais recente do Git:
-
-```bash
 git switch "feat(desafio)/nome-da-branch"
 ```
 
@@ -86,7 +80,7 @@ Você pode verificar em qual branch está utilizando:
 git branch
 ```
 
-A branch atual estará marcada com um `*`.
+A branch actual estará marcada com um `*`.
 
 ### 4. Histórico
 
@@ -124,13 +118,8 @@ Para visualizar o histórico de commits:
 git log
 ```
 
-Para visualizar o histórico de forma resumida:
-
-```bash
-git log --oneline
-```
-
 Caso tenha alguma dúvida:
 
 https://discord.gg/2AmQV7X7ZY
-\n<!-- updated at 2026-09-26 -->
+
+<!-- pipeline-trigger: 2026-09-26T21:03:00Z -->
